@@ -2,6 +2,7 @@
 title: The biomformat Package for R
 output: 
   html_document: 
+    keep_md: yes
     number_sections: yes
     theme: readable
     toc: yes
