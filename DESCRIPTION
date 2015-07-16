@@ -1,6 +1,6 @@
 Package: biomformat
-Version: 0.4.1
-Date: 2015-06-20
+Version: 0.4.2
+Date: 2015-07-15
 Maintainer: Paul J. McMurdie <mcmurdie@stanford.edu>
 License: GPL-2
 Title: An interface package (beta) for the BIOM file
