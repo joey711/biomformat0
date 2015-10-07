@@ -1,6 +1,6 @@
 Package: biomformat
-Version: 0.4.2
-Date: 2015-07-15
+Version: 0.9.0
+Date: 2015-10-06
 Maintainer: Paul J. McMurdie <mcmurdie@stanford.edu>
 License: GPL-2
 Title: An interface package (beta) for the BIOM file
@@ -24,7 +24,7 @@ Description: This is an R package for interfacing with the
     well as extensions of common core functions/methods.
 Imports:
     plyr (>= 1.8),
-    RJSONIO (>= 1.0.3),
+    jsonlite (>= 0.9.16),
     Matrix (>= 1.0.12),
     rhdf5
 Depends:
