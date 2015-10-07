@@ -1,2 +1,2 @@
 library("testthat")
-test_package("biom")
+test_package("biomformat")
