@@ -8,6 +8,7 @@ output:
     toc: yes
 ---
 
+[![Travis-CI Build Status](https://travis-ci.org/joey711/biomformat.svg?branch=master)](https://travis-ci.org/joey711/biomformat)
 
 # About the biomformat Package
 
