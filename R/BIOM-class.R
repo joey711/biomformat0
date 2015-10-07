@@ -187,7 +187,7 @@ make_biom <- function(data, sample_metadata=NULL, observation_metadata=NULL, id=
                    format = "Biological Observation Matrix 1.0.0-dev",
                    format_url = format_url,
                    type = "OTU table",
-                   generated_by = sprintf("biom %s", packageVersion("biom")),
+                   generated_by = sprintf("biomformat %s", packageVersion("biomformat")),
                    date = as.character(Sys.time()),
                    matrix_type = "dense",
                    matrix_element_type = matrix_element_type,

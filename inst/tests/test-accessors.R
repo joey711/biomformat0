@@ -1,8 +1,8 @@
 ################################################################################
 # Use testthat to test data accessors
 ################################################################################
-library("biom"); library("testthat")
-packageVersion("biom")
+library("biomformat"); library("testthat")
+packageVersion("biomformat")
 # # # # TESTS!
 min_dense_file   = system.file("extdata", "min_dense_otu_table.biom", package = "biom")
 min_sparse_file  = system.file("extdata", "min_sparse_otu_table.biom", package = "biom")
