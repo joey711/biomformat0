@@ -2,12 +2,11 @@
 % Please edit documentation in R/BIOM-class.R
 \docType{methods}
 \name{nrow,biom-method}
-\alias{nrow}
 \alias{nrow,biom-method}
 \title{Method extensions to \code{\link[base]{nrow}}
 for \code{\link{biom-class}} objects.}
 \usage{
-nrow(x)
+\S4method{nrow}{biom}(x)
 }
 \arguments{
 \item{x}{(Required). An instance of the \code{\link{biom-class}}.}

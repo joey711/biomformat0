@@ -8,7 +8,7 @@
 \alias{sample_metadata,biom,numeric-method}
 \title{Access meta data from \code{\link{biom-class}}.}
 \usage{
-sample_metadata(x, columns, parallel=FALSE)
+sample_metadata(x, columns, parallel = FALSE)
 
 \S4method{sample_metadata}{biom,missing}(x, columns, parallel = FALSE)
 
@@ -20,11 +20,11 @@ sample_metadata(x, columns, parallel=FALSE)
 \item{x}{(Required). An instance of the \code{\link{biom-class}}.}
 
 \item{columns}{(Optional). The subset of column indices described in the
-returned object. For large datasets, specifying the column subset here,
-rather than after creating the whole matrix first,
-can improve speed/efficiency.
-Can be vector of index numbers (\code{\link{numeric-class}}) or
-index names (\code{\link{character-class}}).}
+ returned object. For large datasets, specifying the column subset here,
+ rather than after creating the whole matrix first,
+ can improve speed/efficiency.
+ Can be vector of index numbers (\code{\link{numeric-class}}) or
+ index names (\code{\link{character-class}}).}
 
 \item{parallel}{(Optional). Logical. Whether to perform the accession parsing
  using a parallel-computing backend supported by the \code{\link{plyr-package}}

@@ -11,7 +11,7 @@
 \alias{biom_data,biom,numeric,numeric-method}
 \title{Access main data observation matrix data from \code{\link{biom-class}}.}
 \usage{
-biom_data(x, rows, columns, parallel=FALSE)
+biom_data(x, rows, columns, parallel = FALSE)
 
 \S4method{biom_data}{biom,missing,missing}(x, rows, columns, parallel = FALSE)
 

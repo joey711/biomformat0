@@ -8,7 +8,7 @@
 \alias{observation_metadata,biom,numeric-method}
 \title{Access observation (row) meta data from \code{\link{biom-class}}.}
 \usage{
-observation_metadata(x, rows, parallel=FALSE)
+observation_metadata(x, rows, parallel = FALSE)
 
 \S4method{observation_metadata}{biom,missing}(x, rows, parallel = FALSE)
 
@@ -20,11 +20,11 @@ observation_metadata(x, rows, parallel=FALSE)
 \item{x}{(Required). An instance of the \code{\link{biom-class}}.}
 
 \item{rows}{(Optional). The subset of row indices described in the
-returned object. For large datasets, specifying the row subset here,
--- rather than first creating the complete data object --
-can improve speed/efficiency.
-This parameter can be vector of index numbers (\code{\link{numeric-class}}) or
-index names (\code{\link{character-class}}).}
+ returned object. For large datasets, specifying the row subset here,
+ -- rather than first creating the complete data object --
+ can improve speed/efficiency.
+ This parameter can be vector of index numbers (\code{\link{numeric-class}}) or
+ index names (\code{\link{character-class}}).}
 
 \item{parallel}{(Optional). Logical. Whether to perform the accession parsing
  using a parallel-computing backend supported by the \code{\link{plyr-package}}

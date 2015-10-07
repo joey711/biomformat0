@@ -2,7 +2,9 @@
 % Please edit documentation in R/BIOM-class.R
 \name{make_biom}
 \alias{make_biom}
-\title{Create a \code{\link{biom-class}} from \code{\link{matrix-class}} or \code{\link{data.frame}}.}
+\title{Create a \code{\link{biom-class}}
+from \code{\link{matrix-class}}
+or \code{\link{data.frame}}.}
 \usage{
 make_biom(data, sample_metadata = NULL, observation_metadata = NULL,
   id = NULL, matrix_element_type = "int")

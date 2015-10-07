@@ -2,12 +2,11 @@
 % Please edit documentation in R/BIOM-class.R
 \docType{methods}
 \name{ncol,biom-method}
-\alias{ncol}
 \alias{ncol,biom-method}
 \title{Method extensions to \code{\link[base]{ncol}}
 for \code{\link{biom-class}} objects.}
 \usage{
-ncol(x)
+\S4method{ncol}{biom}(x)
 }
 \arguments{
 \item{x}{(Required). An instance of the \code{\link{biom-class}}.}
@@ -21,7 +20,7 @@ See the general documentation of \code{\link[base]{ncol}} method for
 expected behavior.
 }
 \examples{
-# # # import with default parameters, specify a file
+# import with default parameters, specify a file
 biom_file = system.file("extdata", "rich_sparse_otu_table.biom", package = "biomformat")
 (x = read_biom(biom_file) )
 ncol(x)

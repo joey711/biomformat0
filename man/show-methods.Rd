@@ -2,7 +2,6 @@
 % Please edit documentation in R/BIOM-class.R
 \docType{methods}
 \name{show,biom-method}
-\alias{show}
 \alias{show,biom-method}
 \title{Method extensions to show for biom objects.}
 \usage{

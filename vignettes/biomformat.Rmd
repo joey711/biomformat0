@@ -25,10 +25,14 @@ library("biomformat"); packageVersion("biomformat")
 Here is an example importing BIOM formats of different types into R using the `read_biom` function. The resulting data objects in R are given names beginning with `x`.
 
 ```{r read-biom-examples}
-min_dense_file   = system.file("extdata", "min_dense_otu_table.biom", package = "biomformat")
-min_sparse_file  = system.file("extdata", "min_sparse_otu_table.biom", package = "biomformat")
-rich_dense_file  = system.file("extdata", "rich_dense_otu_table.biom", package = "biomformat")
-rich_sparse_file = system.file("extdata", "rich_sparse_otu_table.biom", package = "biomformat")
+min_dense_file   = system.file("extdata", "min_dense_otu_table.biom", 
+                               package = "biomformat")
+min_sparse_file  = system.file("extdata", "min_sparse_otu_table.biom", 
+                               package = "biomformat")
+rich_dense_file  = system.file("extdata", "rich_dense_otu_table.biom", 
+                               package = "biomformat")
+rich_sparse_file = system.file("extdata", "rich_sparse_otu_table.biom", 
+                               package = "biomformat")
 min_dense_file   = system.file("extdata", "min_dense_otu_table.biom", package = "biomformat")
 rich_dense_char  = system.file("extdata", "rich_dense_char.biom", package = "biomformat")
 rich_sparse_char  = system.file("extdata", "rich_sparse_char.biom", package = "biomformat")
