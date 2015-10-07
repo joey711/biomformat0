@@ -1,16 +1,9 @@
----
-title: The biomformat Package for R
-output: 
-  html_document: 
-    keep_md: yes
-    number_sections: yes
-    theme: readable
-    toc: yes
----
+
+# The biomformat Package for R
 
 [![Travis-CI Build Status](https://travis-ci.org/joey711/biomformat.svg?branch=master)](https://travis-ci.org/joey711/biomformat)
 
-# About the biomformat Package
+# About 
 
 This is an R package for interfacing with both the JSON and HDF5 versions of the [biom file format](http://biom-format.org/). This package includes basic tools for reading biom-format files, accessing and subsetting data tables from a biom object, as well as limited support for writing a biom-object back to a biom-format file.
 
