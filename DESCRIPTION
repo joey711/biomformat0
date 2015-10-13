@@ -1,5 +1,5 @@
 Package: biomformat
-Version: 0.9.5
+Version: 0.99.0
 Date: 2015-10-07
 Maintainer: Paul J. McMurdie <mcmurdie@stanford.edu>
 License: GPL-2
@@ -39,3 +39,4 @@ Collate:
     'IO-methods.R'
     'BIOM-class.R'
     'validity-methods.R'
+biocViews: DataImport, Metagenomics, Microbiome
